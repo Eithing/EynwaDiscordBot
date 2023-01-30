@@ -1,0 +1,87 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "Eynwa.Logic/1.0.0": {
+        "dependencies": {
+          "Eynwa.Interop": "1.0.0",
+          "Eynwa.Models": "1.0.0"
+        },
+        "runtime": {
+          "Eynwa.Logic.dll": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.2.21924"
+          }
+        }
+      },
+      "Refit/4.6.58": {
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Refit.dll": {
+            "assemblyVersion": "4.6.0.0",
+            "fileVersion": "4.6.58.19393"
+          }
+        }
+      },
+      "Eynwa.Interop/1.0.0": {
+        "dependencies": {
+          "Eynwa.Models": "1.0.0",
+          "Refit": "4.6.58"
+        },
+        "runtime": {
+          "Eynwa.Interop.dll": {}
+        }
+      },
+      "Eynwa.Models/1.0.0": {
+        "dependencies": {
+          "Refit": "4.6.58"
+        },
+        "runtime": {
+          "Eynwa.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Eynwa.Logic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/11.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "path": "newtonsoft.json/11.0.2",
+      "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
+    },
+    "Refit/4.6.58": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bkTC+ARz6bgcQmeRxzqln5xoVklUvoLMIZDoa0KUz04IWrtVYHlR46Fgfym6tuUc0i70DqRhSx3MsnbbmLpoLg==",
+      "path": "refit/4.6.58",
+      "hashPath": "refit.4.6.58.nupkg.sha512"
+    },
+    "Eynwa.Interop/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Eynwa.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

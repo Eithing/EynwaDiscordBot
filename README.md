@@ -1,1 +1,1 @@
-# EynwaDiscordBot
+DiscordBot

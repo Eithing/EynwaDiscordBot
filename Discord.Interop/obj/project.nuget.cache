@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "t+8NelBYiKGDtoiFjnZ6wqKT5rX1F6aKbqdoBIUYNN/gfaOJ44YHzOpMNMbtIl6HAvpP8h5WLh/ZLXPVZO48og==",
+  "success": true,
+  "projectFilePath": "E:\\BackUp\\Projects\\Dev\\DiscordBot\\Discord.Interop\\Eynwa.Interop.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Eithing\\.nuget\\packages\\microsoft.netcore.app\\2.0.0\\microsoft.netcore.app.2.0.0.nupkg.sha512",
+    "C:\\Users\\Eithing\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.0.0\\microsoft.netcore.dotnetapphost.2.0.0.nupkg.sha512",
+    "C:\\Users\\Eithing\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.0.0\\microsoft.netcore.dotnethostpolicy.2.0.0.nupkg.sha512",
+    "C:\\Users\\Eithing\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.0.0\\microsoft.netcore.dotnethostresolver.2.0.0.nupkg.sha512",
+    "C:\\Users\\Eithing\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\Eithing\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\Eithing\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\Eithing\\.nuget\\packages\\refit\\4.6.58\\refit.4.6.58.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,309 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\BackUp\\Projects\\Dev\\DiscordBot\\EynwaDiscordBot\\EynwaDiscordBot.csproj": {}
+  },
+  "projects": {
+    "E:\\BackUp\\Projects\\Dev\\DiscordBot\\Discord.Interop\\Eynwa.Interop.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\BackUp\\Projects\\Dev\\DiscordBot\\Discord.Interop\\Eynwa.Interop.csproj",
+        "projectName": "Eynwa.Interop",
+        "projectPath": "E:\\BackUp\\Projects\\Dev\\DiscordBot\\Discord.Interop\\Eynwa.Interop.csproj",
+        "packagesPath": "C:\\Users\\Eithing\\.nuget\\packages\\",
+        "outputPath": "E:\\BackUp\\Projects\\Dev\\DiscordBot\\Discord.Interop\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Eithing\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "targetAlias": "netcoreapp2.0",
+            "projectReferences": {
+              "E:\\BackUp\\Projects\\Dev\\DiscordBot\\Discord.Models\\Eynwa.Models.csproj": {
+                "projectPath": "E:\\BackUp\\Projects\\Dev\\DiscordBot\\Discord.Models\\Eynwa.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "targetAlias": "netcoreapp2.0",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "Refit": {
+              "target": "Package",
+              "version": "[4.6.58, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\BackUp\\Projects\\Dev\\DiscordBot\\Discord.Logic\\Eynwa.Logic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\BackUp\\Projects\\Dev\\DiscordBot\\Discord.Logic\\Eynwa.Logic.csproj",
+        "projectName": "Eynwa.Logic",
+        "projectPath": "E:\\BackUp\\Projects\\Dev\\DiscordBot\\Discord.Logic\\Eynwa.Logic.csproj",
+        "packagesPath": "C:\\Users\\Eithing\\.nuget\\packages\\",
+        "outputPath": "E:\\BackUp\\Projects\\Dev\\DiscordBot\\Discord.Logic\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Eithing\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "targetAlias": "netcoreapp2.0",
+            "projectReferences": {
+              "E:\\BackUp\\Projects\\Dev\\DiscordBot\\Discord.Interop\\Eynwa.Interop.csproj": {
+                "projectPath": "E:\\BackUp\\Projects\\Dev\\DiscordBot\\Discord.Interop\\Eynwa.Interop.csproj"
+              },
+              "E:\\BackUp\\Projects\\Dev\\DiscordBot\\Discord.Models\\Eynwa.Models.csproj": {
+                "projectPath": "E:\\BackUp\\Projects\\Dev\\DiscordBot\\Discord.Models\\Eynwa.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "targetAlias": "netcoreapp2.0",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\BackUp\\Projects\\Dev\\DiscordBot\\Discord.Models\\Eynwa.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\BackUp\\Projects\\Dev\\DiscordBot\\Discord.Models\\Eynwa.Models.csproj",
+        "projectName": "Eynwa.Models",
+        "projectPath": "E:\\BackUp\\Projects\\Dev\\DiscordBot\\Discord.Models\\Eynwa.Models.csproj",
+        "packagesPath": "C:\\Users\\Eithing\\.nuget\\packages\\",
+        "outputPath": "E:\\BackUp\\Projects\\Dev\\DiscordBot\\Discord.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Eithing\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "targetAlias": "netcoreapp2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "targetAlias": "netcoreapp2.0",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "Refit": {
+              "target": "Package",
+              "version": "[4.6.58, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\BackUp\\Projects\\Dev\\DiscordBot\\EynwaDiscordBot\\EynwaDiscordBot.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\BackUp\\Projects\\Dev\\DiscordBot\\EynwaDiscordBot\\EynwaDiscordBot.csproj",
+        "projectName": "EynwaDiscordBot",
+        "projectPath": "E:\\BackUp\\Projects\\Dev\\DiscordBot\\EynwaDiscordBot\\EynwaDiscordBot.csproj",
+        "packagesPath": "C:\\Users\\Eithing\\.nuget\\packages\\",
+        "outputPath": "E:\\BackUp\\Projects\\Dev\\DiscordBot\\EynwaDiscordBot\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Eithing\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
+            "projectReferences": {
+              "E:\\BackUp\\Projects\\Dev\\DiscordBot\\Discord.Interop\\Eynwa.Interop.csproj": {
+                "projectPath": "E:\\BackUp\\Projects\\Dev\\DiscordBot\\Discord.Interop\\Eynwa.Interop.csproj"
+              },
+              "E:\\BackUp\\Projects\\Dev\\DiscordBot\\Discord.Logic\\Eynwa.Logic.csproj": {
+                "projectPath": "E:\\BackUp\\Projects\\Dev\\DiscordBot\\Discord.Logic\\Eynwa.Logic.csproj"
+              },
+              "E:\\BackUp\\Projects\\Dev\\DiscordBot\\Discord.Models\\Eynwa.Models.csproj": {
+                "projectPath": "E:\\BackUp\\Projects\\Dev\\DiscordBot\\Discord.Models\\Eynwa.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
+          "dependencies": {
+            "Discord.Net": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Discord.Net.Commands": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Discord.Net.Core": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Discord.Net.Rest": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Discord.Net.Rpc": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "Discord.Net.WebSocket": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Discord.Net.Webhook": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
